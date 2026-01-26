@@ -26,8 +26,18 @@ The first challenge focused on the classification of multivariate time series. E
 **Achieved Metric:** 0.96044 F1-Score.
 
 
-## Challenge 2: 
+## Challenge 2: The Grumpy Doctogres Challenge
 
 ### **Description**
 
-The second challenge has not started yet. Updates will follow.
+The second challenge involves the classification of diseased human tissue samples. The dataset consists of 1,272 images of microscopic tissue morphology, each paired with a binary mask. The objective is to correctly predict the molecular subtype of the tissue: Luminal A, Luminal B, HER2(+), or Triple Negative.
+A significant part of the work involved data preprocessing, as the creators included many outliers and duplicate images (with different labels) within the training dataset.
+
+### **Notebooks & Files**
+
+* `Report.pdf`: Contains the description of our work for the second challenge.
+* `notebooks/`: This folder contains all the notebooks related to the second challenge.
+
+### **Results**
+
+**Achieved Metric:** 0.40009 F1-Score. While the score was not high, this was because the image resolution was insufficient to capture the details necessary to distinguish between the different types of pathologies. This is also why no participant in the competition succeeded in exceeding an F1-score of 0.47.

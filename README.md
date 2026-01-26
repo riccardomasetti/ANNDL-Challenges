@@ -40,4 +40,9 @@ A significant part of the work involved data preprocessing, as the creators incl
 
 ### **Results**
 
-**Achieved Metric:** 0.40009 F1-Score. While the score was not high, this was because the image resolution was insufficient to capture the details necessary to distinguish between the different types of pathologies. This is also why no participant in the competition succeeded in exceeding an F1-score of 0.47.
+**Achieved Metric:** 0.40009 F1-Score. 
+
+While the score was not high, this was because the image resolution was insufficient to capture the details necessary to distinguish between the different types of pathologies. This is also why no participant in the competition succeeded in exceeding an F1-score of 0.47.
+
+---
+If you'd like to learn more about our work, we invite you to read the reports of each challenge!
